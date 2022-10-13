@@ -10,11 +10,11 @@ Most of the colors are taken from spacemacs-theme, but not all. Nova and Emacs h
 
 _Spaceways Dark:_
 
-<img src="./images/spaceways-dark.png" width="582" height="553" alt=""/>
+<img src="https://raw.githubusercontent.com/chipotle/spaceways-nova/main/images/spaceways-dark.png" width="582" height="553" alt=""/>
 
 _Spaceways Light:_
 
-<img src="./images/spaceways-light.png" width="582" height="553" alt=""/>
+<img src="https://raw.githubusercontent.com/chipotle/spaceways-nova/main/images/spaceways-light.png" width="582" height="553" alt=""/>
 
 ## Version history
 
