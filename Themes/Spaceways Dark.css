@@ -128,8 +128,7 @@ invalid {
     background-color: #3c2a2c; /*  red-bg */
 }
 link {
-    /*  color: #3a81c3; blue */
-    text-decoration: underline;
+    color: #4f97d7; /* blue */
 }
 
 /* Keywords */
@@ -216,7 +215,7 @@ markup.code {
     background-color: #293235; /* head3-bg */
 }
 markup.link {
-    text-decoration: underline;
+    color: #4f97d7; /* blue */
 }
 
 /* Types */
