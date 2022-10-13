@@ -1,7 +1,7 @@
 meta {
     -theme-interface-style: light;
     -theme-vibrancy: none;
-    -theme-accent-color: auto;
+    -theme-accent-color: false;
 }
 
 
@@ -9,9 +9,12 @@ meta {
  * Window styles
  */
 meta.window {
+    color: #655370; /*  base */
+    background-color: #fbf8ef; /*  bg1 */
     border-color: hsl(277, 30%, 85%);
 }
 meta.titlebar {
+    color: hsl(277, 25%, 33%);
     background: linear-gradient(hsl(277, 20%, 90%), hsl(277, 25%, 80%));
     border-color: hsla(277, 20%, 50%, 0.5);
 }
@@ -29,10 +32,8 @@ meta.button.highlighted {
     color: black;
 }
 meta.button.selected {
-    background: linear-gradient(hsl(277, 70%, 91%), hsl(277, 70%, 86%));
-    border: hsl(277, 20%, 81%);
-    /* color: #655370; */
-    color: white;
+    background: linear-gradient(hsl(277, 60%, 96%), hsl(277, 60%, 91%));
+    color: black;
 }
 meta.button.highlighted.selected {
     background: linear-gradient(hsl(277, 70%, 91%), hsl(277, 70%, 86%));

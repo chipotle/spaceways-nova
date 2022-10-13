@@ -4,7 +4,7 @@
     "organization": "Coyote Tracks",
     "author": "Watts Martin",
     "description": "A color scheme for Nova inspired by Spacemacs",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["themes"],
     "bugs": "https://github.com/chipotle/spaceways-nova/issues",
     "repository": "https://github.com/chipotle/spaceways-nova",

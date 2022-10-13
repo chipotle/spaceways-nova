@@ -18,9 +18,10 @@ _Spaceways Light:_
 
 ## Version history
 
-| Version | Date       | Notes           |
-|---------|------------|-----------------|
-| 1.0     | 2022-10-12 | Initial release |
+| Version | Date       | Notes             |
+|---------|------------|-------------------|
+| 1.0.1   | 2022-10-12 | Fix button colors |
+| 1.0     | 2022-10-12 | Initial release   |
 
 ## Copyright and etc.
 

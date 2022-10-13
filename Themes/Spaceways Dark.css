@@ -1,7 +1,7 @@
 meta {
     -theme-interface-style: dark;
     -theme-vibrancy: none;
-    -theme-accent-color: auto;
+    -theme-accent-color: false;
 }
 
 
@@ -36,7 +36,7 @@ meta.button.selected {
     color: white;
 }
 meta.button.highlighted.selected {
-    background: linear-gradient(hsl(277, 35%, 50%), hsl(277, 35%, 40%));
+    background: linear-gradient(hsl(277, 25%, 60%), hsl(277, 25%, 50%));
     color: white;
 }
 meta.button.disabled {
