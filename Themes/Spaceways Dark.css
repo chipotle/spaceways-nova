@@ -23,25 +23,25 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(277, 25%, 50%), hsl(277, 25%, 40%));
+    background: linear-gradient(hsl(277, 20%, 50%), hsl(277, 20%, 40%));
     border: hsl(277, 20%, 51%);
     color: #b2b2b2;
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(277, 25%, 60%), hsl(277, 25%, 50%));
+    background: linear-gradient(hsl(277, 20%, 60%), hsl(277, 20%, 50%));
     color: white;
 }
 meta.button.selected {
-    background: linear-gradient(hsl(277, 35%, 50%), hsl(277, 35%, 40%));
+    background: linear-gradient(hsl(277, 60%, 50%), hsl(277, 60%, 40%));
     color: white;
 }
 meta.button.highlighted.selected {
-    background: linear-gradient(hsl(277, 25%, 60%), hsl(277, 25%, 50%));
+    background: linear-gradient(hsl(277, 60%, 60%), hsl(277, 60%, 50%));
     color: white;
 }
 meta.button.disabled {
-    background: hsl(277, 25%, 55%);
-    color: #686868; /* base-dim */
+    background: hsl(277, 10%, 50%);
+    color: hsl(277, 20%, 35%);
 }
 
 
@@ -148,7 +148,7 @@ value.entity,
 value.null,
 value.boolean,
 value.symbol {
-    color: #c56ec3; /*  comp */
+    color: #2d9574; /*  aqua */
 }
 
 /* Identifiers */
@@ -164,6 +164,9 @@ identifier.variable {
 identifier.method,
 identifier.function {
     color: #bc6ec5; /*  func */
+}
+identifier.key {
+    color: #4f97d7; /*  keyword */
 }
 /* TODO have prefix colors? */
 identifier.decorator,

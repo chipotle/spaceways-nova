@@ -23,20 +23,20 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-    background: linear-gradient(hsl(277, 60%, 96%), hsl(277, 60%, 91%));
+    background: linear-gradient(hsl(277, 65%, 90%), hsl(277, 65%, 80%));
     border: hsl(277, 20%, 81%);
     color: #655370;
 }
 meta.button.highlighted {
-    background: linear-gradient(hsl(277, 70%, 91%), hsl(277, 70%, 86%));
+    background: linear-gradient(hsl(277, 65%, 95%), hsl(277, 65%, 85%));
     color: black;
 }
 meta.button.selected {
-    background: linear-gradient(hsl(277, 60%, 96%), hsl(277, 60%, 91%));
+    background: linear-gradient(hsl(277, 80%, 80%), hsl(277, 80%, 70%));
     color: black;
 }
 meta.button.highlighted.selected {
-    background: linear-gradient(hsl(277, 70%, 91%), hsl(277, 70%, 86%));
+    background: linear-gradient(hsl(277, 80%, 85%), hsl(277, 80%, 85%));
     color: black;
 }
 meta.button.disabled {
@@ -148,7 +148,7 @@ value.entity,
 value.null,
 value.boolean,
 value.symbol {
-    color: #6c4173; /*  comp */
+    color: #2d9574; /*  aqua */
 }
 
 /* Identifiers */
@@ -164,6 +164,9 @@ identifier.variable {
 identifier.method,
 identifier.function {
     color: #6c3163; /*  func */
+}
+identifier.key {
+    color: #3a81c3; /*  keyword */
 }
 /* TODO have prefix colors? */
 identifier.decorator,
